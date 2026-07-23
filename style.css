@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   PAGE
+=========================== */
+body{
+    margin:100px;
+    padding:25px;
+    border:3px solid #000;
+    border-radius:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.7;
+    color:#000;
+
+    background:url("pink1.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+/* ===========================
+   PROFILE IMAGE
+=========================== */
+img{
+    display:block;
+    width:120px;
+    height:120px;
+    margin:0 auto 15px;
+    padding:4px;
+    border:3px solid #000;
+    border-radius:50%;
+    background:#fff;
+    transition:0.4s;
+}
+
+img:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 15px #a20277;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+center{
+    margin-bottom:20px;
+}
+
+h1{
+    margin-bottom:5px;
+    font-size:34px;
+    letter-spacing:1px;
+    color:#C2185B;
+    text-shadow: 2px 2px grey;
+}
+
+h2{
+    margin:25px 0 10px;
+    padding:8px;
+    color:#C2185B;
+    border-bottom:2px solid #C2185B;
+}
+
+/* ===========================
+   PARAGRAPH
+=========================== */
+p{
+    text-align:justify;
+    margin-bottom:10px;
+}
+
+/* ===========================
+   LISTS
+=========================== */
+ol,
+ul{
+    margin-left:30px;
+    margin-bottom:15px;
+}
+
+li{
+    margin:6px 0;
+    transition:0.3s;
+}
+
+li:hover{
+    color:#e283de;
+    transform:translateX(5px);
+}
+
+/* ===========================
+   TABLE
+=========================== */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin:15px 0;
+    background:rgba(255,255,255,0.9);
+    border:2px solid #000;
+}
+
+table,
+th,
+td{
+    border:1px solid #000;
+}
+
+th{
+    background:#430543;
+    color:#fff;
+    padding:12px;
+}
+
+td{
+    padding:12px;
+    text-align:center;
+    transition:0.3s;
+}
+
+/* ===== Education Table Hover ===== */
+tbody tr:hover td{
+    background:#ca75e7;
+    color:#fff;
+    cursor:pointer;
+    transform:scale(1.02);
+}
+
+/* ===========================
+   HORIZONTAL LINE
+=========================== */
+hr{
+    margin:20px 0;
+    border:1px solid #000;
+}
+
+/* ===========================
+   PROJECT TITLES
+=========================== */
+u{
+    text-decoration:none;
+}
+
+u b{
+    display:inline-block;
+    margin:10px 0;
+    font-size:18px;
+    color:#8B0000;
+    transition:0.3s;
+}
+
+u b:hover{
+    color:#e380fe;
+}
+
+/* ===========================
+   LINKS (Future Use)
+=========================== */
+a{
+    color:#c85ee6;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+a:hover{
+    color:#8B0000;
+    text-decoration:underline;
+}
